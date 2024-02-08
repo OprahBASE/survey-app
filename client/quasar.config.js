@@ -62,7 +62,7 @@ module.exports = configure(function ( ctx ) {
 
       vueRouterMode:'history', // available values: 'hash', 'history'
       env: {
-        BASE_URL: ctx.dev ? 'http://localhost:3000' : 'http://54.242.68.115>',
+        SERVER_URL: ctx.dev ? 'http://localhost:3000' : 'http://54.242.68.115',
         CREATOR_NAME: 'Oprah Lewis',
         CREATOR_EMAIL: 'oprahlewis4@gmail.com',
         LINKEDIN: 'https://www.linkedin.com/in/oprahlewis/'
